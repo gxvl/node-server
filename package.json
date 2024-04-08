@@ -1,0 +1,25 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "O pass.in",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.4",
+    "prisma": "^5.12.1",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.26.2",
+    "fastify-type-provider-zod": "^1.1.9",
+    "zod": "^3.22.4"
+  }
+}
